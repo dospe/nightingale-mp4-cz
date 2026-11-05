@@ -1,13 +1,15 @@
 <p align="center">
-  <img src="client/src/assets/images/logo.png" alt="Nightingale" width="400">
+  <img src="client/src/assets/images/logo.png" alt="Nightingale CZ" width="400">
 </p>
 
 <p align="center">
   Karaoke from any song in your music library, powered by neural networks.
 </p>
 
+> **Nightingale CZ** je fork [rzru/nightingale](https://github.com/rzru/nightingale) zaměřený na české písně: stahování z YouTube a dalších webů, české zdroje textů a export karaoke do LRC, ASS, MP4 a UltraStar. Fork má vlastní datovou složku (`~/.nightingale-cz`) a vlastní aktualizace, takže běží vedle původní aplikace. Plán vývoje je v [docs/fork/PLAN_IMPLEMENTACE.md](docs/fork/PLAN_IMPLEMENTACE.md), pravidla forku v [docs/fork/FORK.md](docs/fork/FORK.md). Zbytek tohoto README popisuje upstream Nightingale.
+
 <p align="center">
-  <a href="https://github.com/rzru/nightingale/actions/workflows/release.yml"><img alt="Build" src="https://img.shields.io/github/actions/workflow/status/rzru/nightingale/release.yml?style=flat-square&label=build"></a>
+  <a href="https://github.com/dospe/nightingale-mp4-cz/actions/workflows/quality.yml"><img alt="Quality" src="https://img.shields.io/github/actions/workflow/status/dospe/nightingale-mp4-cz/quality.yml?style=flat-square&label=quality"></a>
   <a href="https://hub.docker.com/r/razzaru/nightingale"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/razzaru/nightingale?style=flat-square&logo=docker&logoColor=white&label=docker%20pulls"></a>
   <a href="https://github.com/rzru/nightingale/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/rzru/nightingale?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0--or--later-blue?style=flat-square"></a>
@@ -17,7 +19,7 @@
 
 <p align="center">
   <a href="https://nightingale.cafe/">Website</a> ·
-  <a href="https://github.com/rzru/nightingale/releases/latest">Downloads</a> ·
+  <a href="https://github.com/dospe/nightingale-mp4-cz/releases/latest">Downloads</a> ·
   <a href="https://nightingale.cafe/docs/">Documentation</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="https://discord.gg/68Vgng9vYp">Discord</a>
@@ -42,7 +44,7 @@ Detailed behavior, supported media formats, controls, analyzer options, and curr
 
 | Mode | Start here |
 | --- | --- |
-| Desktop | [Download the latest release](https://github.com/rzru/nightingale/releases/latest) |
+| Desktop | [Download the latest release](https://github.com/dospe/nightingale-mp4-cz/releases/latest) |
 | Self-hosted Linux | [Installation guide](https://nightingale.cafe/docs/self-hosted.html) |
 | Docker | [CPU and CUDA images](https://nightingale.cafe/docs/docker.html) |
 
@@ -108,8 +110,8 @@ Platform build packages, including Windows ASIO and Linux WebKit requirements, a
 ### Run the desktop app
 
 ```bash
-git clone https://github.com/rzru/nightingale.git
-cd nightingale
+git clone https://github.com/dospe/nightingale-mp4-cz.git
+cd nightingale-mp4-cz
 pnpm --dir client install --frozen-lockfile
 cargo desktop dev
 ```

@@ -25,6 +25,10 @@ below.
 - Added a phone queue link: scan the QR code in the sidebar header and control the queue, playback, and playback settings from a phone on the same network.
 - The results screen now offers **Auto-continue**, which starts the next queued song after a five-second countdown. Your choice is remembered, so a queue keeps running hands-free.
 
+### Improvements
+
+- Nightingale CZ now has its own name, icon, data folder (`~/.nightingale-cz`), and update channel, so it installs next to the original Nightingale without sharing settings or updates.
+
 ### Fixes
 
 - The phone now hides the playback transport, seek bar, and settings once the playback window or browser tab closes, instead of leaving controls for a playback that is gone.

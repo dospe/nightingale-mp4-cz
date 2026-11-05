@@ -19,7 +19,7 @@ export const Header = ({
 }: HeaderProps) => (
   <SidebarHeader>
     <div className="relative flex w-full items-center justify-center pb-2">
-      <img src={logoUrl} className="w-5/6" alt="Nightingale" />
+      <img src={logoUrl} className="w-5/6" alt="Nightingale CZ" />
       <div className="absolute right-1 top-0 flex items-center gap-0.5">
         <RemoteConnect
           focusedSidebarIndex={remoteIndex}

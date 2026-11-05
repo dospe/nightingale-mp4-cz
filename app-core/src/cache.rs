@@ -303,7 +303,7 @@ pub fn default_nightingale_dir() -> PathBuf {
 
     dirs::home_dir()
         .expect("could not find home directory")
-        .join(".nightingale")
+        .join(".nightingale-cz")
 }
 
 pub(crate) fn config_path() -> PathBuf {

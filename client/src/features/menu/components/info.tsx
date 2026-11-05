@@ -70,7 +70,7 @@ export const InfoDialog = () => {
       <DialogContent className="sm:max-w-lg">
         <div ref={containerRef} className="contents">
           <DialogHeader>
-            <DialogTitle className="text-2xl">Nightingale</DialogTitle>
+            <DialogTitle className="text-2xl">Nightingale CZ</DialogTitle>
             <p className="text-sm text-muted-foreground">
               {t('menu.info.karaokeFromYourMusicLibrary')}
             </p>
@@ -78,7 +78,7 @@ export const InfoDialog = () => {
               <Button
                 variant="ghost"
                 size="icon-sm"
-                onClick={() => void openUrl('https://github.com/rzru/nightingale')}
+                onClick={() => void openUrl('https://github.com/dospe/nightingale-mp4-cz')}
                 className={cn(
                   'focus-visible:ring-0 focus-visible:border-transparent',
                   focusedIndex === 0 && 'outline-2 outline-primary outline-offset-2',

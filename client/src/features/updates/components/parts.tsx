@@ -9,7 +9,7 @@ import { cn } from '@/shared/utils/cn';
 import { version as currentVersion } from '../../../../package.json';
 
 export const CURRENT_VERSION = currentVersion;
-export const RELEASES_URL = 'https://github.com/rzru/nightingale/releases/latest';
+export const RELEASES_URL = 'https://github.com/dospe/nightingale-mp4-cz/releases/latest';
 export const SELF_HOSTED_DOCS_URL = 'https://nightingale.cafe/docs/self-hosted.html#updating';
 export const GENERIC_DESCRIPTION: TranslationKey = 'updates.main.description';
 
